@@ -14,34 +14,33 @@ print("Lets Begin! ")
 #storing the user's score in a variable
 score = 0
 
+#creating a function that increments the score if correct and prints incorrect if the answer is wrong
+def check(UserAnswer, CorrectAnswer):
+    global score #declare global score variable
+    if UserAnswer == CorrectAnswer:
+        print("Correct! ")
+        score += 1
+    else:
+        print("Incorrect :( ")
+
 #Ask 4 questions to the user 
 answer = input("Which team has the most NBA Championships? ").lower()
-if answer == "boston celtics":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect :(")
+CorrectAnswer = "boston celtics"
+check(answer,CorrectAnswer)
+
 
 answer = input("Who won the 2016 NBA Finals? ").lower()
-if answer == "Cleveland Cavaliers":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect :(")
+CorrectAnswer = "Cleveland Cavaliers"
+check(answer,CorrectAnswer)
 
 answer = input("What's Aarnav's favourite NBA team? ").lower()
-if answer == "Los Angles Clippers":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect :(")
+CorrectAnswer == "Los Angles Clippers"
+check(answer,CorrectAnswer)
+
 
 answer = input("Who was the first pick in the 2024 NBA Draft? ").lower()
-if answer == "Victor Wembanyama":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect :(")
+CorrectAnswer == "Victor Wembanyama"
+check(answer,CorrectAnswer)
 
 
 #Total up the user's score and print results
