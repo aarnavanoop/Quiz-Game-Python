@@ -44,6 +44,5 @@ else:
     print("Incorrect :(")
 
 
-
-
-#Total up the user's score
+#Total up the user's score and print results
+print("Congrats on completing the quiz! You got a final score of" + (score/4)*100 +"%")
