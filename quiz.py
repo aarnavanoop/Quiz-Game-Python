@@ -11,6 +11,39 @@ if interest != "yes":
 #begin the quiz
 print("Lets Begin! ")
 
+#storing the user's score in a variable
+score = 0
+
 #Ask 4 questions to the user 
+answer = input("Which team has the most NBA Championships? ").lower()
+if answer == "boston celtics":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect :(")
+
+answer = input("Who won the 2016 NBA Finals? ").lower()
+if answer == "Cleveland Cavaliers":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect :(")
+
+answer = input("What's Aarnav's favourite NBA team? ").lower()
+if answer == "Los Angles Clippers":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect :(")
+
+answer = input("Who was the first pick in the 2024 NBA Draft? ").lower()
+if answer == "Victor Wembanyama":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect :(")
+
+
+
 
 #Total up the user's score
