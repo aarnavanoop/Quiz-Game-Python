@@ -30,16 +30,16 @@ check(answer,CorrectAnswer)
 
 
 answer = input("Who won the 2016 NBA Finals? ").lower()
-CorrectAnswer = "Cleveland Cavaliers"
+CorrectAnswer = "cleveland cavaliers"
 check(answer,CorrectAnswer)
 
 answer = input("What's Aarnav's favourite NBA team? ").lower()
-CorrectAnswer == "Los Angles Clippers"
+CorrectAnswer = "los Angeles clippers"
 check(answer,CorrectAnswer)
 
 
 answer = input("Who was the first pick in the 2024 NBA Draft? ").lower()
-CorrectAnswer == "Victor Wembanyama"
+CorrectAnswer = "victor wembanyama"
 check(answer,CorrectAnswer)
 
 
